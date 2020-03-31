@@ -89,10 +89,6 @@ body {
   .from-img, .to-img {
     width: 100%;
   }
-  .slider-video-content {
-    width: 100%;
-    height: 100%;
-  }
 }
 
 .slider img {
@@ -105,5 +101,5 @@ body {
 
 .slider-video-content {
   width: 100%;
-  height: 500px;
+  height: 359px;
 }
