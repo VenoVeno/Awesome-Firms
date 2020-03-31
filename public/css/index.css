@@ -1,3 +1,9 @@
+@import url(https://fonts.googleapis.com/css?family=Ubuntu);
+
+body{
+  font-family: 'Ubuntu';
+}
+
 .hoverable {
   display: inline-block;
   backface-visibility: hidden;
@@ -80,20 +86,8 @@
   color: #343a40;
 }
 
-@media screen and (max-width: 700px) and (min-width: 150px) {
-  .wrapper-card {
-    width: 100%;
-  }
-}
-
-@media screen and (max-width: 979px) and (min-width: 701px) {
-  .wrapper-card {
-    width: 50%;
-  }
-}
-
-@media screen and (max-width: 1300px) and (min-width: 980px){
-  .wrapper-card {
-    width: 33.33%;
+@media only screen and (max-width : 600px){
+  .from-img , .to-img{
+  width: 100%;
   }
 }
