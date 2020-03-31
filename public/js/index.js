@@ -20,7 +20,7 @@ $(document).ready(function () {
         infinite: true,
         speed: 300,
         slidesToShow: 1,
-        slidesToScroll: 1,
+        slidesToScroll: 1
     });
 });
 $(window).on('resize orientationchange', function () {

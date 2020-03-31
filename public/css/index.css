@@ -1,6 +1,5 @@
 @import url(https://fonts.googleapis.com/css?family=Ubuntu);
-
-body{
+body {
   font-family: 'Ubuntu';
 }
 
@@ -86,8 +85,25 @@ body{
   color: #343a40;
 }
 
-@media only screen and (max-width : 600px){
-  .from-img , .to-img{
-  width: 100%;
+@media only screen and (max-width: 680px) {
+  .from-img, .to-img {
+    width: 100%;
   }
+  .slider-video-content {
+    width: 100%;
+    height: 100%;
+  }
+}
+
+.slider img {
+  height: calc(50vh - 100px);
+}
+
+body {
+  overflow-x: hidden;
+}
+
+.slider-video-content {
+  width: 100%;
+  height: 500px;
 }
