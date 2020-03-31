@@ -27,7 +27,6 @@ $(window).on('resize orientationchange', function () {
     $('.js-slider').slick('resize');
 });
 
-$('#bologna-list a').on('click', function (e) {
-    e.preventDefault()
-    $(this).tab('show')
-})
+setTimeout(function () {
+    $('body').addClass('loaded');
+}, 2000)
